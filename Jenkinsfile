@@ -4,9 +4,9 @@ pipeline {
     stages {
         stage('Build') {
 			agent any
-			/* options { 
+			options { 
 				skipDefaultCheckout() 
-			}*/
+			}
 
             steps {                
                 echo 'Runs when skipDefaultCheckout'
